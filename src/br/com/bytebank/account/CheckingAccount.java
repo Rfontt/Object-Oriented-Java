@@ -10,4 +10,9 @@ public class CheckingAccount extends Account{
         double amountToWithdraw = money + 0.2;
         super.withdrawMoney(amountToWithdraw);
     }
+
+    @Override
+    public String toString() {
+        return "Checking account";
+    }
 }

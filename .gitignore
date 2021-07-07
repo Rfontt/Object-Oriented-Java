@@ -1,6 +1,6 @@
 /bin/
-.settings
-.idea
-.project
-OOP.iml
+/.settings
+/.idea
+/.project
+/OOP.iml
 /src/doc

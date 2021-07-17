@@ -81,4 +81,15 @@ public abstract class Account {
 	public static int getTotal() {
 		return total;
 	}
+
+	@Override
+	public boolean equals(Object reference) {
+		Account account = (Account) reference;
+
+		if(this.number == account.number && this.agency == account.agency) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 }

@@ -9,3 +9,15 @@
 - Ao acessar uma posição inválida recebemos a exceção ArrayIndexOutOfBoundException;
 - Arrays possuem um atributo length para saber o tamanho;
 - A forma literal de criar uma Array é com o uso de chaves {}.
+
+# ArrayList:
+
+- A classe java.util.ArrayList encapsula o uso do array e oferece vários métodos de mais alto nível;
+- É possível usar os generics(<>) para definir tipos ao ArrayList;
+- Guarda referências;
+- É do pacote java.util;
+- Usa internamente um array.
+
+# Autoboxing
+
+O compilador realiza um autoboxing quando transforma um primitivo em objeto.

@@ -21,3 +21,10 @@
 # Autoboxing
 
 O compilador realiza um autoboxing quando transforma um primitivo em objeto.
+
+# Lambda
+
+Uma expressão Lambda é uma função anônima que você pode usar para criar delegados ou tipos de árvore de expressão. Ao usar expressões lambda,
+você pode escrever funções locais que podem ser passadas como argumentos ou retornadas como o valor de chamadas de função.
+
+Uma expressão Lambda permite definir uma interface funcional (novamente, um método abstrato) que o compilador identifica pela estrutura. 

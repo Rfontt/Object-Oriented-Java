@@ -22,5 +22,9 @@ public class Wrapper {
 
         System.out.println(numbers.get(ages[0]));
 
+        Integer ref = Integer.valueOf("3");
+        ref++;
+
+        System.out.println(ref);
     }
 }
